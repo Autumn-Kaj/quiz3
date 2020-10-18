@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Quiz 3 CSS and Grid</title>
+    <title>Lesson 4 | CSS &amp; Page Layout</title>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="css/quiz3.css">
+
 </head>
 
 <body>
-    <!------Header + Navigation------>
     <header>
         <div class="container">
             <nav>
@@ -18,13 +19,12 @@
                 <a href="services.html">Services</a>
                 <a href="gallery.html">Gallery</a>
                 <a href="contact.html">Contact</a>
-            </nav>
+            </nav><!-- nav -->
         </div>
-    </header>
-    
-    <!------Content------->
-
-    <main>
+    </header><!-- header -->
+    <!-- banner image -->
+    <div class="banner"></div><!-- banner -->
+    <main class="padding">
         <div class="container">
             <div class="sideleft">
                 <h3>Welcome To My Website</h3>
@@ -44,7 +44,7 @@
 
                 <a href="link.html" class="btn">Read More</a>
 
-            </div>
+            </div><!-- sideleft -->
 
             <div class="sideright">
                 <h3>About My Website</h3>
@@ -75,13 +75,13 @@
                     quibusdam, mollitia, excepturi tenetur accusantium debitis sapiente magni sit! Libero similique ad
                     dolore assumenda?
                 </p>
-            </div>
+            </div><!-- sideright -->
             <div class="clearfix"></div>
 
-        </div>
+        </div><!-- container -->
 
-    </main>
-    <section class="margin">
+    </main><!-- main -->
+    <section class="bg-color">
         <div class="container">
             <div class="box">
                 <i class="fas fa-book"></i>
@@ -107,13 +107,20 @@
         </div><!-- container -->
     </section><!-- section -->
     <div class="clearfix"></div>
-    <footer>
+    <footer class="padding">
         <div class="container">
             <i class="far fa-copyright"></i>
 
-            Copyright dirksea@wwu.edu. All Rights Reserved.
-        </div>
-    </footer>
+            Copyright Your Email. All Rights Reserve.
+
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div><!-- container -->
+    </footer><!-- footer -->
 </body>
 
 </html>
